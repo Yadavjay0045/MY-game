@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+
+  width: 100%;
+  height:100vh;
+      display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cont{
+    background-color: rgb(139, 160, 160);
+    height: 400px;
+    width: 310px;
+    display:flexbox ;
+   
+    justify-items:center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.rules{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    
+}
+
+
+button{
+    margin: 25px 9px;
+    display: ;
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+   font-size: large;
+   border-radius: 10px;
+   background-color: rgb(86, 105, 105);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+    width: 55px;
+}
+h1{
+    color: rgb(240, 236, 230);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.resilt{
+    color: black;
+}
+
+
+
+@media screen and (max-width: 600px){
+.cont{
+    margin: 50% 0px;
+}
+    
+}
